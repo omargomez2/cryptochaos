@@ -5,9 +5,9 @@
 # url: 
 #-----------
 
-import streamlit
+import streamlit as st
 
-streamlit.title('Enfoque de cifrado de objetos JSON utilizando sincronización caótica a partir del análisis' +
+st.title('Enfoque de cifrado de objetos JSON utilizando sincronización caótica a partir del análisis' +
                 ' de un conjunto de atractores IDIPI-28')
 
 st.text('Resumen. En la actualidad en mayor o menor medida los productos software desarrollados' + 
