@@ -6,7 +6,7 @@
 #-----------
 
 import streamlit as st
-import streamlit_scrollable_textbox as stx
+
 
 st.title('Enfoque de cifrado de objetos JSON utilizando sincronización caótica a partir del análisis' +
                 ' de un conjunto de atractores IDIPI-28')
@@ -28,7 +28,7 @@ txt = """Resumen. En la actualidad en mayor o menor medida los productos softwar
          plazo previsto de ejecución es de veinticuatro meses."""
 
 
-stx.scrollableTextbox(txt, height = 450)
+st.text(txt)
 
 
 
