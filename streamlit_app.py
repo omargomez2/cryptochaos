@@ -28,10 +28,7 @@ components.html(
       propone el desarrollo de un enfoque de cifrado de objetos JSON utilizando sincronización caótica
       a partir de la selección de un conjunto de atractores. El enfoque a desarrollar se pretende pueda
       ser utilizado en el ámbito académico por docentes e investigadores, así como por profesionales en la 
-      industria de software. La presente investigación se llevará a cabo en la ESPOCH así como se tiene previsto
-      la realización de una estancia de investigación. Los recursos requeridos serán financiados por ESPOCH, y serán
-      ejecutados por los miembros participantes en este proyecto (dos recursos coordinador y miembro de proyecto). El 
-      plazo previsto de ejecución es de veinticuatro meses.
+      industria de software.
     </div>
     """,
     height=600,
