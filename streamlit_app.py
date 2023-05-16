@@ -10,7 +10,7 @@ import streamlit as st
 st.title('Enfoque de cifrado de objetos JSON utilizando sincronización caótica a partir del análisis' +
                 ' de un conjunto de atractores IDIPI-28')
 
-st.text('Resumen. En la actualidad en mayor o menor medida los productos software desarrollados' + 
+st.text_area('Resumen. En la actualidad en mayor o menor medida los productos software desarrollados' + 
         ' se encuentran expuestos al Internet.  Internamente estos productos están conformados' + 
         ' por componentes software los cuales, muchos de ellos, se intercomunican a través del' +
         ' Internet, enviando y recibiendo información. Un formato común para el intercambio de' + 
@@ -26,12 +26,5 @@ st.text('Resumen. En la actualidad en mayor o menor medida los productos softwar
         ' ejecutados por los miembros participantes en este proyecto (dos recursos coordinador y miembro de proyecto). El' + 
         ' plazo previsto de ejecución es de veinticuatro meses.')
 
-txt = st.text_area('Text to analyze', '''
-    It was the best of times, it was the worst of times, it was
-    the age of wisdom, it was the age of foolishness, it was
-    the epoch of belief, it was the epoch of incredulity, it
-    was the season of Light, it was the season of Darkness, it
-    was the spring of hope, it was the winter of despair, (...)
-    ''')
-st.write('Sentiment:', run_sentiment_analysis(txt))
+
 
