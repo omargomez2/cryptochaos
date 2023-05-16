@@ -29,6 +29,6 @@ txt = """Resumen. En la actualidad en mayor o menor medida los productos softwar
 
 
 st.text(txt)
-
+<div style="text-align: center"> your-text-here </div>
 
 
