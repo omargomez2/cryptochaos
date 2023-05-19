@@ -61,6 +61,23 @@ $$\dot{z} = b+z(x-c)$$
 '''
 
 st.subheader('Atractor de Lorenz')
+components.html(
+    """
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <div style="text-align: justify">
+    El atractor de Lorenz es un modelo matemático de un sistema dinámico (caótico) que exhibe una dependencia sensible de 
+    las condiciones iniciales. Fue introducido por primera vez por Edward Lorenz en 1963 como una representación 
+    simplificada de la convección atmosférica. El atractor de Lorenz consta de tres ecuaciones diferenciales 
+    acopladas que describen la evolución de tres variables: x, y y z. Las ecuaciones tienen tres parámetros: sigma, rho y beta, 
+    que controlan la forma y el comportamiento del atractor. El atractor de Lorenz es uno de los ejemplos más 
+    famosos de un atractor extraño, un conjunto de puntos en el espacio de fase que tiene una estructura fractal 
+    y atrae trayectorias cercanas.
+    </div>
+    """
+)
+
 r'''
 $$\dot{x} = \sigma(-x+y)$$
 '''
