@@ -2,7 +2,7 @@
 # 
 # Authors: OG, RR, DP, MR
 # Description: 
-# url: 
+# url: https://omargomez2-cryptochaos-streamlit-app-hw3hh9.streamlit.app/
 #-----------
 
 import streamlit as st
@@ -33,5 +33,11 @@ components.html(
     """,
     height=600,
 )
+
+r'''
+$$\dot{x} = -(y+z)$$
+$$\dot{y} = x+ay$$
+$$\dot{z} = b+z(x-c)$$
+'''
 
 
