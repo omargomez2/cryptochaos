@@ -115,6 +115,22 @@ $$\dot{z} = xy-bz$$
 '''
 
 st.subheader('Atractor de Sprott')
+components.html(
+    """
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <div style="text-align: justify">
+    El atractor de Sprott es un tipo de atractor caótico que tiene forma de mariposa y dimensión fraccionaria. 
+    Fue descubierto por Julien C. Sprott, físico e investigador del caos de la Universidad de Wisconsin-Madison. 
+    El atractor de Sprott se puede generar mediante un mapa cuadrático tridimensional con términos no lineales. 
+    El atractor de Sprott tiene propiedades interesantes como la multiestabilidad, la coexistencia de múltiples 
+    atractores y la sensibilidad a las condiciones iniciales. El atractor Sprott se puede utilizar para modelar 
+    fenómenos complejos como redes neuronales, sistemas láser y percepción.
+    </div>
+    """, height=200
+)
+
 r'''
 $$\dot{x} = a(y-x)$$
 '''
