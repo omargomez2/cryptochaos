@@ -33,6 +33,22 @@ components.html(
     """, height=300
 )
 
+st.subheader('Sincronización Caótica')
+components.html(
+    """
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <div style="text-align: justify">
+      La sincronización caótica es un fenómeno en el que dos o más sistemas caóticos pueden ajustar su dinámica para 
+      volverse idénticos o similares. Esto puede suceder cuando los sistemas están acoplados por alguna forma de 
+      interacción o comunicación, como una fuerza impulsora común, una señal de retroalimentación o un entorno compartido. 
+      La sincronización caótica tiene aplicaciones en varios campos, como la comunicación segura, las redes neuronales y 
+      las redes complejas.
+      </div>
+    """, height=300
+)
+
 st.subheader('Atractor de Rossler')
 components.html(
     """
