@@ -36,8 +36,11 @@ components.html(
 
 r'''
 $$\dot{x} = -(y+z)$$
+'''
+r'''
 $$\dot{y} = x+ay$$
+'''
+r'''
 $$\dot{z} = b+z(x-c)$$
 '''
-
 
