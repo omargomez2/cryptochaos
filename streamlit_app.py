@@ -30,7 +30,7 @@ components.html(
       ser utilizado en el ámbito académico por docentes e investigadores, así como por profesionales en la 
       industria de software.
     </div>
-    """, height=200
+    """, height=300
 )
 
 st.subheader('Atractor de Rossler')
@@ -47,7 +47,7 @@ components.html(
       donde A, B y C son los parametros de equilibrio. El atractor de Rössler tiene forma de espiral que se tuerce y gira 
       en tres dimensiones. Tiene algunas similitudes con el atractor de Lorenz, pero es más simple y tiene solo una variedad.
     </div>
-    """
+    """, height=300
 )
 
 r'''
@@ -75,7 +75,7 @@ components.html(
     famosos de un atractor extraño, un conjunto de puntos en el espacio de fase que tiene una estructura fractal 
     y atrae trayectorias cercanas.
     </div>
-    """
+    """, height=300
 )
 
 r'''
