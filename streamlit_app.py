@@ -84,11 +84,11 @@ $$\dot{z} = xy-bz$$
 
 st.subheader('Atractor de Sprott')
 r'''
-$$\dot{x} = a*(y-x)$$
+$$\dot{x} = a(y-x)$$
 '''
 r'''
-$$\dot{y} = b*x*z$$
+$$\dot{y} = bxz$$
 '''
 r'''
-$$\dot{z} = c-x*y$$
+$$\dot{z} = c-xy$$
 '''
