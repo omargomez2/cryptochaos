@@ -30,7 +30,7 @@ components.html(
       ser utilizado en el ámbito académico por docentes e investigadores, así como por profesionales en la 
       industria de software.
     </div>
-    """
+    """, height=200
 )
 
 st.subheader('Atractor de Rossler')
