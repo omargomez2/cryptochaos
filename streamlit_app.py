@@ -30,7 +30,7 @@ components.html(
       ser utilizado en el ámbito académico por docentes e investigadores, así como por profesionales en la 
       industria de software.
     </div>
-    """, height=200
+    """, height=300
 )
 
 st.subheader('Sincronización Caótica')
@@ -46,7 +46,7 @@ components.html(
       La sincronización caótica tiene aplicaciones en varios campos, como la comunicación segura, las redes neuronales y 
       las redes complejas.
       </div>
-    """, height=300
+    """, height=200
 )
 
 st.subheader('Atractor de Rossler')
