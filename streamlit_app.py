@@ -73,13 +73,13 @@ $$\dot{z} = xy-\beta z$$
 
 st.subheader('Atractor de Chen')
 r'''
-$$\dot{x} = a*(y-x)$$
+$$\dot{x} = a(y-x)$$
 '''
 r'''
-$$\dot{y} = (c-a)*x-x*z+c*y$$
+$$\dot{y} = (c-a)x-xz+cy$$
 '''
 r'''
-$$\dot{z} = x*y-b*z$$
+$$\dot{z} = xy-bz$$
 '''
 
 st.subheader('Atractor de Sprott')
