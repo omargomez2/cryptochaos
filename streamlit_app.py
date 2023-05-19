@@ -30,8 +30,7 @@ components.html(
       ser utilizado en el ámbito académico por docentes e investigadores, así como por profesionales en la 
       industria de software.
     </div>
-    """,
-    height=600,
+    """
 )
 
 st.subheader('Atractor de Rossler')
@@ -47,9 +46,6 @@ components.html(
       modelar el equilibrio en reacciones químicas y otros fenómenos. Las ecuaciones que definen el atractor de Rössler son:
       donde A, B y C son los parametros de equilibrio. El atractor de Rössler tiene forma de espiral que se tuerce y gira 
       en tres dimensiones. Tiene algunas similitudes con el atractor de Lorenz, pero es más simple y tiene solo una variedad.
-    r'''
-$$\dot{x} = -(y+z)$$
-'''
     </div>
     """,
     height=600,
