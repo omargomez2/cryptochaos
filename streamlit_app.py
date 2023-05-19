@@ -13,7 +13,10 @@ st.title('Enfoque de cifrado de objetos JSON utilizando sincronización caótica
 
 components.html(
     """
-       <div style="text-align: justify">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <div style="text-align: justify">
       Resumen. En la actualidad en mayor o menor medida los productos software desarrollados
       se encuentran expuestos al Internet.  Internamente estos productos están conformados 
       por componentes software los cuales, muchos de ellos, se intercomunican a través del
@@ -44,6 +47,9 @@ components.html(
       modelar el equilibrio en reacciones químicas y otros fenómenos. Las ecuaciones que definen el atractor de Rössler son:
       donde A, B y C son los parametros de equilibrio. El atractor de Rössler tiene forma de espiral que se tuerce y gira 
       en tres dimensiones. Tiene algunas similitudes con el atractor de Lorenz, pero es más simple y tiene solo una variedad.
+    r'''
+$$\dot{x} = -(y+z)$$
+'''
     </div>
     """,
     height=600,
