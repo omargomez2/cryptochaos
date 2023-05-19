@@ -47,8 +47,7 @@ components.html(
       donde A, B y C son los parametros de equilibrio. El atractor de Rössler tiene forma de espiral que se tuerce y gira 
       en tres dimensiones. Tiene algunas similitudes con el atractor de Lorenz, pero es más simple y tiene solo una variedad.
     </div>
-    """,
-    height=600,
+    """
 )
 
 r'''
@@ -61,3 +60,35 @@ r'''
 $$\dot{z} = b+z(x-c)$$
 '''
 
+st.subheader('Atractor de Lorenz')
+r'''
+$$\dot{x} = \sigma(-x+y)$$
+'''
+r'''
+$$\dot{y} = -xz+\rho x-y$$
+'''
+r'''
+$$\dot{z} = xy-\beta z$$
+'''
+
+st.subheader('Atractor de Chen')
+r'''
+$$\dot{x} = a*(y-x)$$
+'''
+r'''
+$$\dot{y} = (c-a)*x-x*z+c*y$$
+'''
+r'''
+$$\dot{z} = x*y-b*z$$
+'''
+
+st.subheader('Atractor de Sprott')
+r'''
+$$\dot{x} = a*(y-x)$$
+'''
+r'''
+$$\dot{y} = b*x*z$$
+'''
+r'''
+$$\dot{z} = c-x*y$$
+'''
