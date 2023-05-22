@@ -131,7 +131,7 @@ $$\dot{z} = xy-bz$$
 '''
 
 http_chen = 'https://github.com/omargomez2/cryptochaos/blob/main/plot_chen.png'
-st.image(http_chen, caption= '80-day sale data', width=300)
+st.image(http_chen, caption= 'Chen Attractor', width=300)
 
 
 
