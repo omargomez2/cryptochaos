@@ -75,6 +75,9 @@ $$\dot{y} = x+ay$$
 r'''
 $$\dot{z} = b+z(x-c)$$
 '''
+http_chen = 'https://omargomez2.github.io/cryptochaos/plot_rossler.png'
+st.image(http_chen, caption= 'Rossler Attractor', width=350)
+
 
 st.subheader('Atractor de Lorenz')
 components.html(
@@ -104,6 +107,10 @@ r'''
 $$\dot{z} = xy-\beta z$$
 '''
 
+http_chen = 'https://omargomez2.github.io/cryptochaos/plot_lorenz.png'
+st.image(http_chen, caption= 'Lorenz Attractor', width=350)
+
+
 st.subheader('Atractor de Chen')
 components.html(
     """
@@ -131,7 +138,7 @@ $$\dot{z} = xy-bz$$
 '''
 
 http_chen = 'https://omargomez2.github.io/cryptochaos/plot_chen.png'
-st.image(http_chen, caption= 'Chen Attractor', width=300)
+st.image(http_chen, caption= 'Chen Attractor', width=350)
 
 
 
@@ -161,3 +168,6 @@ $$\dot{y} = bxz$$
 r'''
 $$\dot{z} = c-xy$$
 '''
+
+http_chen = 'https://omargomez2.github.io/cryptochaos/plot_sprott.png'
+st.image(http_chen, caption= 'Sprott Attractor', width=350)
