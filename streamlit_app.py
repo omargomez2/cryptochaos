@@ -130,7 +130,7 @@ r'''
 $$\dot{z} = xy-bz$$
 '''
 
-http_chen = 'https://github.com/omargomez2/cryptochaos/blob/b9cddc2c43e7387297eae2514c4a5d7cbaf55a32/plot_chen.png'
+http_chen = 'https://omargomez2.github.io/cryptochaos/plot_chen.png'
 st.image(http_chen, caption= 'Chen Attractor', width=300)
 
 
